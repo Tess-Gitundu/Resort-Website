@@ -33,3 +33,28 @@
   .navbar ul li a:hover {
       background-color: rebeccapurple;
   }
+
+  /* homepage styling */
+ .HOME {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: rgb(255, 255, 255);
+     background-color: rgb(170, 218, 237);
+     height: 800px;
+ }
+
+ .HOME img {
+     width: 100%;
+     margin: 80px;
+ }
+.HOME h1 {
+     text-align: center;
+     margin: 0 0;
+     position: absolute;
+     top: 35vh;
+     color: rgb(242, 147, 6);
+     font-size: 80px;
+     font-style: italic;
+ }
+ 
