@@ -2,3 +2,34 @@
     margin: 0;
     padding: 0;
 }
+
+/* nav bar */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(170, 218, 237);
+}
+
+ .navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 20px 0;
+ }
+
+  .navbar ul li {
+      font-size: 20px;
+      font-weight: bold;
+      font-style: normal;
+      font-family: sans-serif;
+  }
+
+ .navbar ul li a {
+     text-decoration: none;
+     padding: 20px;
+     color: rgba(255, 0, 64, 0.952);
+ }
+
+  .navbar ul li a:hover {
+      background-color: rebeccapurple;
+  }
