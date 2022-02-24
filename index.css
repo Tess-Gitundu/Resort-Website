@@ -57,4 +57,28 @@
      font-size: 80px;
      font-style: italic;
  }
- 
+ .about {
+     display: flex;
+     padding: 80px;
+     flex-direction: column;
+     background-color: rgb(170, 218, 237);
+    
+ }
+ .image {
+     display: flex;
+ }
+ .image img {
+     height: 350px;
+     width: 400px;
+ }
+ .ab-heading {
+     display: flex;
+     text-align: justify;
+     padding: 25px;
+     flex-direction: column;
+ }
+ .ab-heading h1 {
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+ }
