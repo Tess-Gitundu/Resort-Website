@@ -82,3 +82,11 @@
      flex-direction: column;
      text-align: center;
  }
+ .services h1{
+    margin: 2%;
+ }
+ .services h2 {
+     margin: 2%;
+     font-size: 30px;
+     font-style: italic;
+ }
