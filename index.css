@@ -3,6 +3,9 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 /* nav bar */
 .navbar {
     display: flex;
@@ -90,7 +93,14 @@
      font-size: 30px;
      font-style: italic;
  }
+ .servicess h3 {
+     font-size: 30px;
+     margin: 2%;
+     font-style: italic;
+ }
  .services {
      background-color: rgb(170, 218, 237);
  }
- 
+ .contact {
+     background-color: aqua;
+ }
